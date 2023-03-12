@@ -1,0 +1,7 @@
+if game.PlaceId == 189707 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOwner/NDS/main/NDS"))()
+elseif game.PlaceId == 14375697 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOwner/SFT/main/SFT"))()
+else
+    game.Players.LocalPlayer:Kick("Unsupported Game")
+end
